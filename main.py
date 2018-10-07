@@ -6,4 +6,4 @@ def get_my_ip():
     return "hello world"
 
 if __name__ == "__main__":
-    app.run()
+    app.run(port="5000")
